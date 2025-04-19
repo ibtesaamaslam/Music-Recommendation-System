@@ -1,0 +1,18 @@
+2025-04-20 01:13:45,105 - INFO - Using sample MovieLens dataset
+2025-04-20 01:13:45,573 - INFO - Splitting data with test_size=0.2
+2025-04-20 01:13:45,799 - INFO - Training svd model with params: {'n_epochs': 20, 'lr_all': 0.005, 'reg_all': 0.02}
+2025-04-20 01:13:47,395 - INFO - Model trained successfully
+2025-04-20 01:13:47,396 - INFO - Evaluating model with 3-fold cross-validation
+2025-04-20 01:13:55,864 - INFO - Mean RMSE: Test = 0.9443 ± 0.0027, Train = 0.6931 ± 0.0020
+2025-04-20 01:13:55,869 - INFO - Mean MAE: Test = 0.7459 ± 0.0022, Train = 0.5497 ± 0.0024
+2025-04-20 01:13:55,870 - INFO - Making predictions on test set
+2025-04-20 01:13:56,178 - INFO - Test RMSE: 0.7813
+2025-04-20 01:13:56,180 - INFO - Test MAE: 0.6133
+2025-04-20 01:13:56,187 - INFO - Generating 5 recommendations for user 196
+2025-04-20 01:13:56,272 - INFO - Sampling from 1651 candidates for efficiency
+2025-04-20 01:13:56,283 - INFO - Top 5 recommendations for user 196:
+2025-04-20 01:13:56,283 - INFO - Item 483: Predicted rating 4.57
+2025-04-20 01:13:56,286 - INFO - Item 114: Predicted rating 4.51
+2025-04-20 01:13:56,286 - INFO - Item 178: Predicted rating 4.46
+2025-04-20 01:13:56,287 - INFO - Item 515: Predicted rating 4.42
+2025-04-20 01:13:56,287 - INFO - Item 603: Predicted rating 4.41
